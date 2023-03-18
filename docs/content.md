@@ -1,9 +1,4 @@
 ---
-date: 2023-03-18
-navbar: true
-sidebar: false
-lastUpdated: true
-lastUpdatedText: 'Something is updated'
 prev: '/page1.html'
 ---
 

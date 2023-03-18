@@ -16,7 +16,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     lastUpdatedText: 'Last one:',
     lastUpdated: true,
-    locales: { '/': { selectLanguageName: 'English' } },
+    contributors: true,
     tip: 'John Says',
     home: '/home.html',
     logo: '/images/vue.svg',

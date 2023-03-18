@@ -3,7 +3,6 @@ home: true
 heroImage: /images/hyper.svg
 heroHeight: 300
 heroText: 'Hero Text'
-description: 'does this change'
 tagline: 'Tagline'
 actions:
   - text: action 1

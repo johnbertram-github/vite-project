@@ -1,6 +1,5 @@
 ---
 title: Page 1
-lastUpdated: true
 ---
 
 ## Coil Diameter & Turns Calculation
