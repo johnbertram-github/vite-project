@@ -18,12 +18,3 @@ title: Page 1
 | D      | overall coil diameter                                                      |
 | A      | total side area                                                            |
 | n      | number of turns approximation                                              |
-
-### Formulae to determine above unknowns
-
-<p>I will display &#960;</p>
-
-$\pi$
-
-$$\sum_{i=1}^n X_i$$
-![Alt text](./assets/coil-calc.jpg)
