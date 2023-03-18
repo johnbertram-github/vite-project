@@ -4,25 +4,22 @@ import { getDirname, path } from '@vuepress/utils'
 
 const __dirname = getDirname(import.meta.url)
 
+
 export default defineUserConfig({
   plugins: [
     registerComponentsPlugin({
       components: { HelloWorld: path.resolve(__dirname, './components/HelloWorld.vue') },
     }),
   ],
-  title: 'VuePress Demo',
-  description: 'Description of Demo',
-  lang: 'en-GB',
+  title: 'SeceuroDoor',
   theme: defaultTheme({
-    lastUpdatedText: 'Last one:',
     lastUpdated: true,
     contributors: true,
-    tip: 'John Says',
+    tip: 'Information',
     home: '/home.html',
-    logo: '/images/vue.svg',
-    repo: 'https://gitlab.com/foo/bar',
-    editLink: true,
-    editLinkText: 'Edit me',
+    logo: '/images/seceurodoor-small.png',
+    editLink: false,
+    repo: 'https://github.com/johnbertram-github/vite-project/tree/main/docs',
     navbar: [
       { text: 'Content', link: '/content.html' },
       { text: 'Page 1', link: '/page1.html' },
