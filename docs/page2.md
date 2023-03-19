@@ -4,9 +4,9 @@ title: 'Standard Operating Instruction: Push Button Operation'
 prev:
   text: Important Information
   link: /page1.md
-next:
-  text: Page - 1
-  link: /page1.md
+# next:
+#   text: Page - 1
+#   link: /page1.md
 ---
 
 # Standard Operating Instruction: Push Button Operation

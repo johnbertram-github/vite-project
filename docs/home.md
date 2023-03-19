@@ -6,9 +6,9 @@ heroText: 'Operating & Maintenance Instructions'
 tagline: 'Motorised Industrial Door'
 
 actions:
-  - text: action 1
-    link: /page1.html
-    type: primary
+  # - text: action 1
+  #   link: /page1.html
+  #   type: primary
   - text: Introduction
     link: /intro.html
     type: secondary
