@@ -17,9 +17,9 @@ These operating instructions apply to a SeceuroDoor industrial steel roller shut
 
 ## Normal Operation
 
-<div class="flex w-full justify-content-center bg-blue-700">
+<!-- <div class="flex w-full justify-content-center bg-blue-700"> -->
 <img src="/images/controller.png"/>
-</div>
+<!-- </div> -->
 
 ### To open door
 
