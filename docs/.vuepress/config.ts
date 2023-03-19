@@ -10,7 +10,7 @@ export default defineUserConfig({
       components: { HelloWorld: path.resolve(__dirname, './components/HelloWorld.vue') },
     }),
   ],
-  base: '/vite-project/',
+  // base: '/vite-project/',
   title: 'SeceuroDoor',
   theme: defaultTheme({
     lastUpdated: true,
