@@ -4,13 +4,13 @@ import { getDirname, path } from '@vuepress/utils'
 
 const __dirname = getDirname(import.meta.url)
 
-
 export default defineUserConfig({
   plugins: [
     registerComponentsPlugin({
       components: { HelloWorld: path.resolve(__dirname, './components/HelloWorld.vue') },
     }),
   ],
+  base: '/vite-project/',
   title: 'SeceuroDoor',
   theme: defaultTheme({
     lastUpdated: true,
