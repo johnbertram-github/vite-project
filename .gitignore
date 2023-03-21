@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 .temp
 .cache
+
+node_modules/
+docs/.vuepress/theme/.vuepress/.cache/
+docs/.vuepress/theme/.vuepress/.temp/
+docs/.vuepress/theme/.vuepress/dist/

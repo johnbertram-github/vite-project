@@ -1,6 +1,7 @@
 ---
-title: 'Standard Operating Instruction: Push Button Operation'
+title: 'Operating Instructions'
 # editLink: true
+icon: operate
 prev:
   text: Important Information
   link: /demo/page1.md

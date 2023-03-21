@@ -1,11 +1,12 @@
 ---
 title: Important Information
+icon: warn
 prev:
   text: Introduction
-  link: /intro.md
+  link: /demo/intro.md
 next:
   text: Standard Operation Instructions
-  link: /page2.md
+  link: /demo/page2.md
 ---
 
 [[toc]]

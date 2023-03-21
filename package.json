@@ -7,15 +7,18 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs/.vuepress/theme",
+    "docs:build": "vuepress build docs/.vuepress/theme",
+    "docs:clean-dev": "vuepress dev docs/.vuepress/theme --clean-cache",
+    "docs:update-package": "npx vp-update"
   },
   "dependencies": {
     "firebase": "^9.17.2",
     "pinia": "^2.0.33",
     "primeflex": "^3.3.0",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vuepress-theme-hope": "^2.0.0-beta.196"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
@@ -23,7 +26,10 @@
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vue-tsc": "^1.0.24",
-    "vuepress": "^2.0.0-beta.61"
+    "vuepress": "2.0.0-beta.61",
+    "@vuepress/client": "2.0.0-beta.61",
+    "vue": "^3.2.47",
+    "vuepress-theme-hope": "2.0.0-beta.196"
   },
   "description": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
   "main": "index.js",
